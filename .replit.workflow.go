@@ -1,4 +1,2 @@
-[workflow]
-name = "Go API"
-command = "go run cmd/api/main.go"
-deploymentTarget = "cloudrun"
+name = "Go API Server"
+command = "./start_go_api.sh"
