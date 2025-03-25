@@ -20,6 +20,6 @@ func main() {
         httpHandler.SetupRoutes(mux)
 
         // Start the server
-        log.Println("Starting HTTP server on :5000")
-        log.Fatal(http.ListenAndServe("0.0.0.0:5000", mux))
+        log.Println("Starting HTTP server on :8080")
+        log.Fatal(http.ListenAndServe("0.0.0.0:8080", mux))
 }
